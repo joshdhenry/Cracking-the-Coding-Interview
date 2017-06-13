@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Node.h"
 
 @interface Stack : NSObject
+{
+    Node *top;
+}
+
+-(void)push: (int)node;
+-(int)pop;
+-(int)peek;
 
 @end

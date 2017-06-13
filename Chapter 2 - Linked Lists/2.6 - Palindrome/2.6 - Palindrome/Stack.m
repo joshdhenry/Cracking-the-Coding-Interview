@@ -10,4 +10,22 @@
 
 @implementation Stack
 
+-(void)push: (int)data {
+    Node *newNode = [[Node alloc] initWithData:data];
+    newNode.next = top;
+    top = newNode;
+}
+
+
+-(int)pop {
+    int oldTopData = top.data;
+    top = top.next;
+    return oldTopData;
+}
+
+
+-(int)peek {
+    return top.data;
+}
+
 @end

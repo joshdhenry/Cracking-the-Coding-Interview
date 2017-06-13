@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Node.h"
 
 @interface LinkedList : NSObject
+
+@property Node *head;
+
+-(BOOL)isPalindrome;
+-(BOOL)isPalindrome2;
+-(LinkedList *)reverseAndClone;
+-(BOOL)isEqualToList: (LinkedList *)list;
 
 @end
