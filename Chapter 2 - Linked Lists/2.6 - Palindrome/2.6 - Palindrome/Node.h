@@ -1,18 +1,13 @@
 //
 //  Node.h
-//  2.5 - Sum Lists
+//  2.6 - Palindrome
 //
-//  Created by Josh Henry on 6/11/17.
+//  Created by Josh Henry on 6/12/17.
 //  Copyright © 2017 Big Smash Software. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @interface Node : NSObject
-
-@property (atomic) int data;
-@property (atomic) Node *next;
-
--(id)initWithData:(int) data;
 
 @end

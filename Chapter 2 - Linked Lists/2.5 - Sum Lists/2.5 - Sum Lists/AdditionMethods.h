@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Node.h"
 
 @interface AdditionMethods : NSObject
++(Node *)add:(Node *)n1 to:(Node *)n2 carry:(int) c;
 
 @end

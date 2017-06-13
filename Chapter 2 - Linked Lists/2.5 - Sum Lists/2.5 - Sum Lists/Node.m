@@ -9,5 +9,11 @@
 #import "Node.h"
 
 @implementation Node
+-(id)initWithData:(int) data {
+    self = [super init];
+    self.data = data;
+    
+    return self;
+}
 
 @end
