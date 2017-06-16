@@ -10,4 +10,9 @@
 
 @interface Node : NSObject
 
+@property int data;
+@property Node *next;
+
+-(id)initWithData: (int) data;
+
 @end
