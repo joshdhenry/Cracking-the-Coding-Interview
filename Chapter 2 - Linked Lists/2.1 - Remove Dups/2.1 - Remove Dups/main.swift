@@ -95,5 +95,5 @@ func findDuplicates2(head: Node) {
 
 printList(head: n1)
 print("---")
-findDuplicates2(head: n1)
+findDuplicates(head: n1)
 printList(head: n1)

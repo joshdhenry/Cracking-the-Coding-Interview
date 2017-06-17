@@ -60,3 +60,4 @@ print(isUniqueCharacters2(str: str2))
 //Other options to try:
 //Use a bit vector
 //Sort the string and check for neighboring duplicate characters.
+
